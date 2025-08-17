@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADITYA GUPTA - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Link to the original external CSS file -->
+    <link rel="stylesheet" href="navbar.css"> <!-- Link to the new navbar CSS file -->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-code logo-icon"></i>
+                <span>Portfolio</span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">
+                        <i class="fas fa-home nav-icon"></i>
+                        <span>Home</span>
+                        <div class="hover-indicator"></div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">
+                        <i class="fas fa-user nav-icon"></i>
+                        <span>About</span>
+                        <div class="hover-indicator"></div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">
+                        <i class="fas fa-cog nav-icon"></i>
+                        <span>Skills</span>
+                        <div class="hover-indicator"></div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">
+                        <i class="fas fa-project-diagram nav-icon"></i>
+                        <span>Projects</span>
+                        <div class="hover-indicator"></div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <i class="fas fa-envelope nav-icon"></i>
+                        <span>Contact</span>
+                        <div class="hover-indicator"></div>
+                    </a>
+                </li>
+            </ul>
+            
+            <button class="mobile-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="IMG_20250518_224600.jpg" alt="Professional headshot of a confident software developer in business casual attire with a friendly smile and modern office background" />
+            </div>
+            <h1>Hi, I'm ADITYA GUPTA</h1>
+            <p>Full Stack Developer & UI/UX Designer passionate about creating amazing digital experiences</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>I am a passionate web developer with a keen eye for design and a love for creating clean, functional, and user-friendly websites. I enjoy turning ideas into reality through code and continuously strive to learn and improve my skills
+</p>
+        /*    </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c2776b56-9d02-400e-aa3f-0524af496bf9.png" alt="Professional developer working on laptop in modern workspace with multiple monitors showing code and design interfaces" />
+                </div>
+                <div class="about-text">
+                    <h3>Crafting Digital Solutions with Passion</h3>
+                    <p>I’m a third-year computer science student with a strong interest in full-stack web development. I’m currently working on projects that help me apply my coding knowledge to real-world problems. My journey began with curiosity about how websites work, and it has grown into a passion for building applications that combine design with functionality.</p>
+                    <p>I specialize in modern JavaScript frameworks, responsive design, and creating seamless user experiences. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through technical writing.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">0</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills & Technologies</h2>
+                <p>A comprehensive overview of my technical expertise and the tools I use to bring ideas to life</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Vue.js</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Node.js</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Python</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 82%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MongoDB</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>PostgreSQL</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Git/GitHub</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Docker</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 78%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>AWS</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Figma</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+                <p>A showcase of my recent work and the innovative solutions I've developed</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="8c08e16a-613a-463c-bd72-3b68fa8425f1.png" alt="Modern e-commerce website dashboard showing product listings, shopping cart, and payment interface with clean UI design" />
+                        <div class="project-overlay">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured e-commerce platform built with React and Node.js, featuring user authentication, payment processing, and admin dashboard.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="e5d5e95c-4f78-477c-8118-6238e87ae9ac.png" alt="Task management application interface with kanban boards, calendar view, and team collaboration features in modern design" />
+                        <div class="project-overlay">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="d7f99a9a-8c1b-4e13-83de-a3d8b98ef4d1.png" alt="Weather application showing detailed forecast, interactive maps, and location-based weather data with elegant mobile-responsive design" />
+                        <div class="project-overlay">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Forecast App</h3>
+                        <p>A responsive weather application with location-based forecasts, interactive maps, and detailed weather analytics.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="a57a3e65-abac-4d45-84d5-c221e8c244ac.png" alt="Social media dashboard displaying analytics charts, user engagement metrics, and content management tools with dark theme interface" />
+                        <div class="project-overlay">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Social Media Dashboard</h3>
+                        <p>An analytics dashboard for social media management with data visualization, scheduling tools, and engagement tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Material-UI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7486bfe3-12cd-49d4-9b92-5e57ef258349.png" alt="Portfolio website showcase featuring creative layouts, smooth animations, and responsive design elements across multiple device screens" />
+                        <div class="project-overlay">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Creative Portfolio Site</h3>
+                        <p>A stunning portfolio website with smooth animations, creative layouts, and optimized performance for showcasing creative work.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">SASS</span>
+                            <span class="tech-tag">GSAP</span>
+                            <span class="tech-tag">Webpack</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/6676ea5a-3f22-422d-be0f-943433aca8c1.png" alt="Learning management system interface showing course catalog, progress tracking, video player, and student dashboard with modern educational design" />
+                        <div class="project-overlay">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Learning Management System</h3>
+                        <p>A comprehensive LMS platform with course management, student tracking, video streaming, and interactive learning tools.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>I'm always open to discussing new opportunities and interesting projects</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm passionate about creating amazing digital experiences and would love to hear about your next project. Whether you need a website, web application, or just want to say hello, feel free to reach out!</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>adityahupta1605@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>9582525472</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Greater Noida, Uttar Pradesh</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                                         <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Aditya Gupta. All Rights Reserved.</p>
+            <br>
+            <div class="social-links">
+                <a href="https://github.com/adityaguptacs16" target="_blank"><i class="fab fa-github fa-1x"></i></a>
+                <a href="https://www.linkedin.com/in/aditya-gupta-780b68295/" target="_blank"><i class="fa-brands fa-linkedin fa-1x"></i></a>
+                <a href="https://www.instagram.com/the_adii_clickz/" target="_blank"><i class="fa-brands fa-instagram fa-1x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- Original script.js for other functionalities -->
+    <script src="navbar.js"></script> <!-- New script for navbar functionalities -->
+</body>
+</html>
